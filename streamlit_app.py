@@ -26,7 +26,7 @@ streamlit.dataframe(fruits_to_show)
 streamlit.header('Fruityvice Fruit Advice!')
 
 
---fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi");
+--fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + 'kiwi');
 
 --Wihth user input
 fruit_choice=streamlit.text_input('What fruit would like information about?','kiwi')
